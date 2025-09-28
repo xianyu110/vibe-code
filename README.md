@@ -1,4 +1,4 @@
-# 🎵 Vibe Code - AI 编程助手
+# 🤖 Vibe Code - AI 编程助手
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://xianyu110.github.io/vibe-code)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -287,7 +287,7 @@ MIT License - 可自由使用、修改、分发
 
 <div align="center">
 
-**🎵 Vibe Code - 让AI编程更有节奏感**
+**🤖 Vibe Code - 让AI编程更有节奏感**
 
 Made with ❤️ by [Vibe Code Team](https://github.com/xianyu110)
 
