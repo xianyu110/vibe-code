@@ -93,7 +93,7 @@
 在控制台复制 API 地址与密钥，配置到本地/服务器环境中
 
 ```bash
-export VIBE_API_BASE="https://your-domain"
+export VIBE_API_BASE="https://code.claude-opus.top/"
 export VIBE_API_KEY="sk-xxxxx..."
 ```
 
@@ -101,7 +101,7 @@ export VIBE_API_KEY="sk-xxxxx..."
 在项目中调用接口或使用命令行工具验证接入
 
 ```bash
-curl -H "Authorization: Bearer $VIBE_API"
+curl -H "Authorization: Bearer $VIBE_API_KEY"
 # 或多套餐程中的即时一键安装
 ```
 
