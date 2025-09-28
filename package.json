@@ -1,0 +1,40 @@
+{
+  "name": "vibe-code",
+  "version": "1.0.0",
+  "description": "Professional AI programming assistant website with theme switching and multi-language support",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server .",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xianyu110/vibe-code.git"
+  },
+  "keywords": [
+    "ai",
+    "programming",
+    "assistant",
+    "claude",
+    "openai",
+    "codex",
+    "github-pages",
+    "multi-language",
+    "theme-switching"
+  ],
+  "author": "Vibe Code Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xianyu110/vibe-code/issues"
+  },
+  "homepage": "https://xianyu110.github.io/vibe-code",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}

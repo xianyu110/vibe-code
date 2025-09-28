@@ -1,0 +1,38 @@
+# GitHub Pages Configuration
+title: "Vibe Code - AI Programming Assistant"
+description: "Professional AI programming interface service that provides efficient and stable productivity tools for developers and enterprises"
+url: "https://xianyu110.github.io"
+baseurl: "/vibe-code"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .gitignore
+
+# Site settings
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# SEO settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links
+github_username: xianyu110
+twitter_username: xianyu110
+
+# Analytics (optional)
+google_analytics: # GA tracking ID

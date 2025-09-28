@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page-title">Vibe Code - AI编程助手</title>
+    <meta name="description" content="Professional AI programming interface service">
+    <meta name="keywords" content="AI, programming, code, assistant, Claude, OpenAI">
+    <meta name="author" content="Vibe Code Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xianyu110.github.io/vibe-code/">
+    <meta property="og:title" content="Vibe Code - AI Programming Assistant">
+    <meta property="og:description" content="Professional AI programming interface service">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://xianyu110.github.io/vibe-code/">
+    <meta property="twitter:title" content="Vibe Code - AI Programming Assistant">
+    <meta property="twitter:description" content="Professional AI programming interface service">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body data-theme="dark">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎵</span>
+                <span class="logo-text">Vibe Code</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-i18n="nav-home">首页</a></li>
+                <li><a href="#features" class="nav-link" data-i18n="nav-features">功能特性</a></li>
+                <li><a href="#products" class="nav-link" data-i18n="nav-products">产品矩阵</a></li>
+                <li><a href="#use-cases" class="nav-link" data-i18n="nav-use-cases">使用场景</a></li>
+                <li><a href="#quick-start" class="nav-link" data-i18n="nav-quick-start">快速开始</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary" id="languageToggle">
+                    <span class="language-text">EN</span>
+                </button>
+                <button class="btn-secondary" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="btn-secondary" data-i18n="nav-back-home">回到首页</button>
+                <button class="btn-primary" data-i18n="nav-console">控制台</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-container">
+                <h1 class="hero-title">
+                    <span class="highlight" data-i18n="hero-ai-programming">AI编程</span> <span data-i18n="hero-efficiency">效率加倍</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero-subtitle">
+                    专业的 AI 编程接口服务，为您的应用赋能
+                </p>
+
+                <div class="hero-actions">
+                    <button class="btn-cta">
+                        <span class="btn-icon">▲</span>
+                        <span data-i18n="btn-get-started">开始使用</span>
+                    </button>
+                    <button class="btn-secondary-outline" id="tutorialBtn">
+                        <span class="btn-icon">👁</span>
+                        <span data-i18n="btn-view-tutorial">查看教程</span>
+                    </button>
+                </div>
+
+                <div class="ai-providers">
+                    <div class="provider-item">
+                        <span class="provider-icon">🌟</span>
+                        <span class="provider-name">Claude Code</span>
+                    </div>
+                    <div class="provider-item">
+                        <span class="provider-icon">🎯</span>
+                        <span class="provider-name">Openai Codex</span>
+                    </div>
+                </div>
+
+                <div class="stats-section">
+                    <div class="stat-item">
+                        <div class="stat-number">100K+</div>
+                        <div class="stat-label" data-i18n="stat-developers">开发者使用</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50M+</div>
+                        <div class="stat-label" data-i18n="stat-api-calls">API调用</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label" data-i18n="stat-uptime">服务可用率</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 核心优势 -->
+        <section id="features" class="features-section">
+            <div class="features-container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="features-title">核心优势</h2>
+                    <p class="section-subtitle" data-i18n="features-subtitle">领先的AI技术，为您提供最佳编程体验</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">⚡</span>
+                        </div>
+                        <h3 class="feature-title" data-i18n="feature-smart-title">智能高效</h3>
+                        <p class="feature-description" data-i18n="feature-smart-desc">基于最新的AI模型，提供智能代码补全、生成和优化建议</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">🛡️</span>
+                        </div>
+                        <h3 class="feature-title" data-i18n="feature-secure-title">安全可靠</h3>
+                        <p class="feature-description" data-i18n="feature-secure-desc">企业级安全保障，数据加密传输，严格的隐私保护</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">🔧</span>
+                        </div>
+                        <h3 class="feature-title" data-i18n="feature-flexible-title">灵活易用</h3>
+                        <p class="feature-description" data-i18n="feature-flexible-desc">支持多种编程语言和开发环境，简单的API接口</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">☁️</span>
+                        </div>
+                        <h3 class="feature-title">全球部署</h3>
+                        <p class="feature-description">全球多地区部署，智能路由，确保低延迟高性能的服务体验</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">💬</span>
+                        </div>
+                        <h3 class="feature-title">实时协作</h3>
+                        <p class="feature-description">支持团队实时协作，代码审查和知识共享</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="icon">📈</span>
+                        </div>
+                        <h3 class="feature-title">持续进化</h3>
+                        <p class="feature-description">模型持续优化升级，不断学习最新技术栈</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品矩阵 -->
+        <section id="products" class="products-section">
+            <div class="products-container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="products-title">产品矩阵</h2>
+                    <p class="section-subtitle" data-i18n="products-subtitle">多样化的AI编程工具，满足不同场景需求</p>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card featured">
+                        <div class="product-badge">推荐</div>
+                        <div class="product-header">
+                            <div class="product-icon">▶</div>
+                            <h3 class="product-name">Claude Code</h3>
+                        </div>
+                        <p class="product-description">由 Anthropic 提供的强大代码生成与理解能力，适合复杂项目与重构</p>
+                        <ul class="product-features">
+                            <li>✓ 最新 Claude 模型能力</li>
+                            <li>✓ 更长上下文窗口</li>
+                            <li>✓ 多语言编程支持</li>
+                            <li>✓ 代码分析与重构建议</li>
+                        </ul>
+                        <button class="product-btn primary">立即使用</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">■</div>
+                            <h3 class="product-name">Openai Codex</h3>
+                        </div>
+                        <p class="product-description">OpenAI Codex 系列能力，快速补全与上下文代码生成</p>
+                        <ul class="product-features">
+                            <li>✓ Codex 系列模型接入</li>
+                            <li>✓ IDE 辅助与命令生成</li>
+                            <li>✓ 智能代码补全</li>
+                            <li>✓ 注释与文档生成</li>
+                        </ul>
+                        <button class="product-btn secondary">立即使用</button>
+                    </div>
+
+                    <div class="product-card coming-soon">
+                        <div class="product-badge purple">敬请期待</div>
+                        <div class="product-header">
+                            <div class="product-icon">◆</div>
+                            <h3 class="product-name">Gemini Code</h3>
+                        </div>
+                        <p class="product-description">多模态编程助手，图片到代码等高级能力（即将上线）</p>
+                        <ul class="product-features">
+                            <li>✓ Gemini 模型接入</li>
+                            <li>✓ 多模态理解与生成</li>
+                            <li>✓ 以图生代码</li>
+                            <li>✓ 跨平台支持</li>
+                        </ul>
+                        <button class="product-btn disabled">敬请期待</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 使用场景 -->
+        <section id="use-cases" class="use-cases-section">
+            <div class="use-cases-container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="use-cases-title">使用场景</h2>
+                    <p class="section-subtitle" data-i18n="use-cases-subtitle">探索 VibeCode 在不同开发场景中的应用</p>
+                </div>
+
+                <div class="use-cases-grid">
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <span class="icon">💻</span>
+                        </div>
+                        <h3 class="use-case-title">Web 开发</h3>
+                        <p class="use-case-description">加速前端和后端开发，提高开发效率</p>
+                        <ul class="use-case-features">
+                            <li>• 智能组件生成</li>
+                            <li>• RESTful API 开发</li>
+                            <li>• 数据库设计优化</li>
+                            <li>• 响应式布局</li>
+                            <li>• 状态管理方案</li>
+                        </ul>
+                    </div>
+
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <span class="icon">🔄</span>
+                        </div>
+                        <h3 class="use-case-title">代码重构</h3>
+                        <p class="use-case-description">智能重构和架构优化，提升代码质量</p>
+                        <ul class="use-case-features">
+                            <li>• 遗留代码现代化</li>
+                            <li>• 设计模式应用</li>
+                            <li>• 代码结构优化</li>
+                            <li>• 性能瓶颈分析</li>
+                            <li>• 复杂度降低</li>
+                        </ul>
+                    </div>
+
+                    <div class="use-case-card">
+                        <div class="use-case-icon">
+                            <span class="icon">📄</span>
+                        </div>
+                        <h3 class="use-case-title">文档生成</h3>
+                        <p class="use-case-description">自动生成高质量文档，节省文档编写时间</p>
+                        <ul class="use-case-features">
+                            <li>• API 文档自动生成</li>
+                            <li>• 智能代码注释</li>
+                            <li>• README 文件生成</li>
+                            <li>• 文档标准化</li>
+                            <li>• Markdown 格式化</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 快速开始 -->
+        <section id="quick-start" class="quick-start-section">
+            <div class="quick-start-container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="quick-start-title">快速开始</h2>
+                    <p class="section-subtitle" data-i18n="quick-start-subtitle">三步配置，即刻接入 AI 编程服务</p>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">购买或兑换套餐</h3>
+                        <p class="step-description">选择合适的服务（Claude Code / Codex），完成购买或兑换</p>
+                        <div class="step-details">
+                            <p># 登录控制台选择套餐</p>
+                            <p># 购买或输入兑换码成套餐</p>
+                        </div>
+                    </div>
+
+                    <div class="step-arrow">→</div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">配置 API 地址与密钥</h3>
+                        <p class="step-description">在控制台复制 API 地址与密钥，配置到本地/服务器环境中</p>
+                        <div class="step-code">
+                            <code>export VIBE_API_BASE="https://your-domain"</code>
+                            <code>export VIBE_API_KEY="sk-xxxxx..."</code>
+                        </div>
+                    </div>
+
+                    <div class="step-arrow">→</div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">开始使用</h3>
+                        <p class="step-description">在项目中调用接口或使用命令行工具验证接入</p>
+                        <div class="step-code">
+                            <code>curl -H "Authorization: Bearer $VIBE_API"</code>
+                            <p># 或多套餐程中的即时一键安装</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-start-actions">
+                    <button class="btn-secondary-outline" class="tutorialBtn">
+                        <span class="btn-icon">📖</span>
+                        <span data-i18n="btn-view-docs">查看教程</span>
+                    </button>
+                    <button class="btn-cta" id="purchaseBtn">
+                        <span class="btn-icon">🛒</span>
+                        <span data-i18n="btn-purchase">购买/兑换</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA 区域 -->
+        <section class="cta-section">
+            <div class="cta-container">
+                <h2 class="cta-title">准备好提升您的编程效率了吗？</h2>
+                <p class="cta-subtitle">加入数万开发者，体验AI编程的强大力量</p>
+                <div class="cta-actions">
+                    <button class="btn-cta" id="startNowBtn" data-i18n="btn-start-now">立即开始</button>
+                    <button class="btn-secondary-outline" class="tutorialBtn" data-i18n="btn-view-tutorial">查看教程</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页面底部 -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Vibe Code</h3>
+                    <p class="footer-description">专业的 AI 编程技术接口服务，为开发者与企业提供高效稳定的生产力工具</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">产品</h4>
+                    <ul class="footer-links">
+                        <li><a href="#claude-code">Claude Code</a></li>
+                        <li><a href="#codex-pro">Codex Pro</a></li>
+                        <li><a href="#api-docs">API 文档</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">支持</h4>
+                    <ul class="footer-links">
+                        <li><a href="#help">帮助中心</a></li>
+                        <li><a href="#community">社区</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">关于</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#privacy">隐私政策</a></li>
+                        <li><a href="#terms">服务条款</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Vibe Code. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-assistant">
+        <div class="assistant-bubble">
+            <span class="assistant-text">AI助手</span>
+        </div>
+    </div>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
