@@ -558,9 +558,39 @@ const addExternalLinkHandlers = () => {
         });
     }
 
-    // 产品卡片按钮
-    const productBtns = document.querySelectorAll('.product-btn:not(.disabled)');
-    productBtns.forEach(btn => {
+    // Claude Code 产品按钮
+    const claudeBtn = document.querySelector('#claudeBtn');
+    if (claudeBtn) {
+        claudeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+
+            // 添加点击动画
+            claudeBtn.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                claudeBtn.style.transform = 'scale(1)';
+            }, 150);
+        });
+    }
+
+    // OpenAI Codex 产品按钮
+    const codexBtn = document.querySelector('#codexBtn');
+    if (codexBtn) {
+        codexBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.open('https://717ka.com/p/ew6l8oz2h3q9gwiq95dm4oam', '_blank');
+
+            // 添加点击动画
+            codexBtn.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                codexBtn.style.transform = 'scale(1)';
+            }, 150);
+        });
+    }
+
+    // 其他产品卡片按钮 (除了特定ID的按钮)
+    const otherProductBtns = document.querySelectorAll('.product-btn:not(.disabled):not(#claudeBtn):not(#codexBtn)');
+    otherProductBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
             window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
