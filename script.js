@@ -518,7 +518,7 @@ const addExternalLinkHandlers = () => {
     if (purchaseBtn) {
         purchaseBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+            window.open('https://717ka.com/c/yqq7y61yir3d5hnxql491ip', '_blank');
 
             // 添加点击动画
             purchaseBtn.style.transform = 'scale(0.95)';
@@ -533,7 +533,7 @@ const addExternalLinkHandlers = () => {
     if (startNowBtn) {
         startNowBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+            window.open('https://717ka.com/c/yqq7y61yir3d5hnxql491ip', '_blank');
 
             // 添加点击动画
             startNowBtn.style.transform = 'scale(0.95)';
@@ -548,7 +548,7 @@ const addExternalLinkHandlers = () => {
     if (getStartedBtn) {
         getStartedBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+            window.open('https://717ka.com/c/yqq7y61yir3d5hnxql491ip', '_blank');
 
             // 添加点击动画
             getStartedBtn.style.transform = 'scale(0.95)';
@@ -563,7 +563,7 @@ const addExternalLinkHandlers = () => {
     if (claudeBtn) {
         claudeBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+            window.open('https://717ka.com/c/yqq7y61yir3d5hnxql491ip', '_blank');
 
             // 添加点击动画
             claudeBtn.style.transform = 'scale(0.95)';
@@ -593,7 +593,7 @@ const addExternalLinkHandlers = () => {
     otherProductBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.open('https://717ka.com/p/d1q6n6lycx1mw9c2l01pyquq', '_blank');
+            window.open('https://717ka.com/c/yqq7y61yir3d5hnxql491ip', '_blank');
 
             // 添加点击动画
             btn.style.transform = 'scale(0.95)';
