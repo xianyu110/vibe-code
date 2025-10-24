@@ -558,6 +558,21 @@ const addExternalLinkHandlers = () => {
         });
     }
 
+    // 店铺链接按钮
+    const shopBtn = document.querySelector('#shopBtn');
+    if (shopBtn) {
+        shopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.open('https://maynorai.tqfk.xyz/?cid=5&mid=7', '_blank');
+
+            // 添加点击动画
+            shopBtn.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                shopBtn.style.transform = 'scale(1)';
+            }, 150);
+        });
+    }
+
     // Claude Code 产品按钮
     const claudeBtn = document.querySelector('#claudeBtn');
     if (claudeBtn) {
