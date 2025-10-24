@@ -18,6 +18,7 @@ const translations = {
         'hero-efficiency': '效率加倍',
         'hero-subtitle': '专业的 AI 编程接口服务，为您的应用赋能',
         'btn-get-started': '开始使用',
+        'btn-shop-link': '店铺购买',
         'btn-view-tutorial': '查看教程',
 
         // 统计数据
@@ -144,6 +145,7 @@ const translations = {
         'hero-efficiency': 'Efficiency Doubled',
         'hero-subtitle': 'Professional AI programming interface service to empower your applications',
         'btn-get-started': 'Get Started',
+        'btn-shop-link': 'Shop Purchase',
         'btn-view-tutorial': 'View Tutorial',
 
         // Statistics
